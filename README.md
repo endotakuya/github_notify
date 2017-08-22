@@ -25,7 +25,7 @@ Or install it yourself as:
 ```ruby
 require "github_notify"
 
-gf = GithubNotify::Comment.new(
+gn = GithubNotify::Comment.new(
         token: "GITHUB_TOKEN", 
         owner: "endotakuya", 
         repository: "REPOSITORY", 
@@ -33,7 +33,7 @@ gf = GithubNotify::Comment.new(
         body: "Writing message here.")
 
 # Post to Issue
-gf.post
+gn.post
 
 ```
 
